@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gato Chorão</title>
+
+    <style>
+        body {
+            background-color: rgb(134, 56, 153);
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        header {
+            background: #8b31c7;
+            padding: 20px;
+            font-size: 25px;
+        }
+
+        img {
+            width: 250px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .descricao {
+            margin: 20px;
+            font-size: 18px;
+        }
+
+        button {
+            background: #8b31c7;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        Gato Chorão
+    </header>
+
+    <img src="/imagens/imagem2.jpg">
+
+    <div class="descricao">
+        <p><strong>Nome:</strong> Tristezo</p>
+        <p><strong>Idade:</strong> desconhecida</p>
+        <p><strong>Especialidade:</strong> Chorar </p>
+        <p><strong>Habilidade:</strong> Chorar no meio do banho de língua </p>
+    </div>
+
+    <button>Quero</button>
+
+    <br>
+
+    <a href="/">
+        <button>Voltar</button>
+    </a>
+
+</body>
+</html>
