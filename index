@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Distribuição de Gatos</title>
+    <style>
+body {
+    background-color: rgb(134, 56, 153);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    background-color: #8b31c7;
+    transition: 0.3s;
+
+    width: 300px;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 10px;
+
+    height: 80px;
+    font-size: 25px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+</style>
+</head>
+<body>
+    <a href="/produtoA">
+    <button>Quero Gato 🐱</button>
+    </a>
+
+    <a href="/produtoB">
+    <button>Quero Outro Gato 🐾</button>
+    </a>
+</body>
+</html>
